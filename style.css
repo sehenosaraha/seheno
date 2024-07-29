@@ -1,0 +1,308 @@
+@font-face 
+{
+    font-family: 'ballparkweiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#ballparkweiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'dayrom';
+    src: url('polices/dayrom.eot'),
+         url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#dayrom') format('svg');
+         font-weight: normal;
+         font-style: normal;
+}
+body
+{
+    background: url('OC3QYV0.jpg');
+    font-family: 'trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+section h1, footer h1
+{
+    font-family: dayrom, serif;
+    font-size: normal;
+    text-transform: uppercase;
+}
+header
+{
+    height: 550px;
+    background: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-shadow: 0px 4px 4px #1c1a19;
+    border-radius: 5px;
+}
+#titre_principal
+{
+    display: flex;
+    flex-direction: row;
+}
+header h1
+{
+    font-family: 'ballparkweiner', serif;
+    font-size: 2.5em;
+    margin-left: 150px;
+    margin-top: -480px;
+    font-weight: normal;
+    position: absolute;
+    
+}
+header h2
+{
+    font-family: 'dayrom', serif;
+    font-size: 1.2em;
+    margin-top: -425px;
+    margin-left: 365px;
+    font-weight: normal;
+    position: absolute;
+}
+header h3
+{
+    font-family: 'ballparkweiner', serif;
+    font-size: 1.2em;
+    margin-top: -90px;
+    font-weight: normal;
+    position: absolute;
+    margin-left: 310px;
+}
+#logo img
+{
+    
+    margin-left: 375px;
+    margin-top: -340px;
+    position: absolute;
+    transform: rotate(-3deg);
+}
+.cercle
+{
+    width: 260px;
+    height: 260px;
+    border-radius: 250px;
+    background-color: #003333;
+    background-position: center;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: -400px;
+}
+#fleche img
+{
+    margin-left: -90px;
+    margin-top: -560px;
+    position: absolute;
+}
+#banniere
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: beige;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+#banniere h1
+{
+    font-family: 'ballparkweiner', serif;
+    font-size: 2.5em;
+    margin-left: 250px;
+    margin-top: 50px;
+    font-weight: normal;
+    position: absolute;
+    z-index: 1;
+    color: beige;
+}
+#banniere img
+{
+height: 200px;
+width: 900px;
+position: absolute;
+box-shadow: 0px 4px 4px #1c1a19;
+margin-bottom: 25px;
+border-radius: 5px;
+}
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.7%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: beige;
+    color: #003333;
+    font-size: 0.8em;
+}
+.bouton_rouge
+{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background:  #003333;
+    border: 1px solid #181818;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'ballparkweiner bold', serif;
+    padding: 3px 8px 0px 8px;
+    color: beige;
+    text-decoration: none;
+    margin-right: 400px;
+}
+.bouton
+{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background:  #003333;
+    border: 1px solid #181818;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'ballparkweiner bold', serif;
+    padding: 3px 8px 0px 8px;
+    color: beige;
+    text-decoration: none;
+    position: relative;
+}
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: #003333;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    text-align: justify;
+    width: 300px;
+    height: 425px;
+}
+aside img{
+   margin-left: 50px;
+   width: 200px;
+}
+
+article
+{
+    margin-right: 400px;
+    flex-direction: 3;
+    text-align: center;
+}
+article h1{
+    text-align: justify;
+    margin-left: 200px;
+}
+article ul{
+    list-style-type: none;
+    display: contents;
+}
+article li{
+    text-align: left;
+    margin-left: 10px;
+}
+#fleche_bulle
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+#skills{
+    color: #181818;
+    background-color: beige;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #1c1a19;
+    margin-right: 100px;
+    margin-left: 350px;
+    margin-top: -440px;
+    width: 550px;
+    height: 440px;
+    position: relative;
+}
+.skill{
+    font-weight: bold;
+    text-align: center;
+    margin-right: 100px;
+    position: relative;
+    margin-top: -20px;
+}
+.progress-bar{
+    width: 100%;
+    height: 10px;
+    background-color: #003333;
+    border-radius: 5px;
+    margin-left: -100px auto;
+    position: absolute;
+}
+.progress{
+    height: 100%;
+    background-color: var(--progress-color);
+    border-radius: 5px;
+    position: relative;
+}
+.percentage{
+    text-align:right;
+    margin-left: 0%;
+    margin-top: 10px;
+}
+section
+{
+    display: flex;
+    margin-left: 500px;
+    margin-top: -450px;
+    margin-bottom: 60px;
+}
+footer
+{
+    display: flex;
+    height: 1000px;
+    background-color: #003333;
+    box-shadow: 0px 2px 5px #181818;
+    border-radius: 5px;
+}
+footer p, footer ul
+{
+    font-size: 0.8em;
+    color: white;
+    display: inline;
+}
+footer p{
+    display:grid;
+}
+footer h1
+{
+    font-size: 1.5em;
+    text-decoration-line:underline;
+}
+#tous
+{
+    color: beige;
+    text-align: left;
+    position: relative;
+    margin-left: 45px;
+    margin-top: 20px;
+    text-align: center;
+}
+#tous img{
+    display:table-column-group;
+    border-radius: 5px;
+
+}

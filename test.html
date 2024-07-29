@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css"/>
+        <script>
+            document.querySelector('.cover-image').addEventListener('click',function(){
+                document.querySelector('.album-content').style.display='block';
+            });
+        </script> 
+        <title> créateur de contenu</title>
+    </head>
+
+    <body>
+        <div id="bloc_page">
+            <header>
+                <div id="titre_principal">
+                    <div class="cercle"></div>   
+                    <div id="logo">
+                        <img src="Profile copie.jpg" alt="photo de AINANIRINA Seheno"/>
+                    </div>
+                    <h1> <em>Bonjour je suis</em>, AINANIRINA Seheno</h1>
+                    <h2> Je crée des designs pour</h2>        
+                    <h3><em>Esthétiser et fonctionnaliser vos idées</em></h3>
+                    <div id="fleche">
+                        <img src="fleche.svg" alt="flèche">
+                    </div>
+                </div>
+    </header>
+    <div id="banniere">
+        <h1>Discutons de <em>votre projet</em></h1>
+        <img src="FD.jpg" alt=""/>
+        <div id="banniere_description"><a href="contact.html" class="bouton_rouge"> CONTACT </a>
+        </div>
+    </div>
+            <aside>
+                <h1> <center>A propos</center></h1>
+                <img src="PP.JPG" alt="" id="fond"/>
+                <p>" Etudiante en M1<em> à l'EMIT</em> depuis 2020, 
+                    je travaille en tant que designer graphique.
+                    Chacune de mes réalisations est unique et personnalisée
+                    Je travaille chaque graphisme et design selon vos besoin,
+                    mais aussi pour qu'il ressemble et reflète votre projet,
+                    votre univers. "
+                    En dehors de mon activité professionnel, j'adore déssiner
+                    pour accroître ma créativité. Mais aussi lire des livres et regarder des films
+                </p>
+            </aside>
+            <section id="skills">
+            <article>
+                <br><h1>Compétences</h1></br>
+                <ul>
+                    <li>
+                        <span class="skill">Photoshop</span>
+                        <div class="progress-bar" style="width: 95%;"></div>
+                        <span class="percentage">95%</span>
+                        </li><br>
+                     <li>
+                        <span class="skill">Illustrator</span>
+                        <div class="progress-bar" style="width: 90%;"></div>
+                        <span class="percentage">90%</span>
+                        </li><br>
+                        <li>
+                         <span class="skill">InDesign</span>
+                         <div class="progress-bar" style="width: 85%;"></div>
+                         <span class="percentage">85%</span>
+                        </li><br>
+                        <li>
+                         <span class="skill">Wordpress</span>
+                        <div class="progress-bar" style="width: 80%;"></div>
+                        <span class="percentage">80%</span>
+                        </li><br>
+                        <li>
+                        <span class="skill">HTML</span>
+                        <div class="progress-bar" style="width: 75%;"></div>
+                        <span class="percentage">75%</span>
+                        </li><br>
+                        <li>
+                        <span class="skill">CSS</span>
+                        <div class="progress-bar" style="width: 60%;"></div>
+                        <span class="percentage">60%</span>
+                        </li><br>
+                        <li>
+                        <span class="skill">Javascript</span>
+                        <div class="progress-bar" style="width: 50%;"></div>
+                        <span class="percentage">50%</span>
+                        </li></BR>
+                        <li>
+                        <span class="skill">PHP</span>
+                        <div class="progress-bar" style="width: 45%;"></div>
+                        <span class="percentage">45%</span>
+                         </li>
+                </ul>
+            </article>
+        </section>
+        
+        <footer>
+            <div id="tous">
+                <h1>mes créations</h1>
+                
+                    <table width="100%" border="0">
+                    <tr>
+                        <td> <center><img src="evnm.jpg" alt="image2" style="width: 50%;"> <br></center>
+                    <center><img src="logohiqaody.jpg" alt="image6" style="width: 50%;"> <br></center>
+                    <center><img src="logo.jpg" alt="image4" style="width: 50%;"> <br></center>
+                    <center><img src="logoera.jpg" alt="image5" style="width: 50%;"><br></center>
+                </td>
+                     <td>
+                        <center><img src="evnmt.jpg" alt="image3" style="width: 70%;"> <br></center>
+                            <center><img src="tsd.jpg" alt="image1" style="width: 50%;"> <br></center>
+                            <center><img src="logoshop.jpg" alt="image7" style="width: 50%;"> <br></center>
+                            <center><img src="ts.jpg" alt="image8" style="width:50%"></center>
+                            </td>
+                        </tr>  
+                    </table>
+            </div>
+                </div>
+        </footer>
+        <center>
+        <p>contact</p>
+        <form method="post" action="traitement.php"> 
+            <p>
+                <label for="nom">votre nom:</label>
+                <br/>
+                <input type="text" name="nom" id="nom"/>
+                <br/>
+                <label for="entreprise">nom de votre entreprise:</label>
+                <br/>
+                <input type="text" name="entreprise" id="entreprise"/>
+                <br/>
+                <label for="mail">votre e-mail:</label>
+                <br/>
+                <input type="email" name="mail" id="mail"/>
+            </p>
+        </form>
+        <div>
+        <a href="envoye"class="bouton">envoyer</a>
+        </div>
+    </center>
+     </div>
+    </body>
+</html>
